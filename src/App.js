@@ -1,10 +1,8 @@
-import { Client } from "boardgame.io/react";
-import { TicTacToe } from "./tictactoe/Game";
-import { TicTacToeBoard } from "./tictactoe/Board";
+// src/App.js
 
-const App = Client({
-  game: TicTacToe,
-  board: TicTacToeBoard,
-});
-
+import React from "react";
+import LobbyView from "./lobby/lobby";
+function App() {
+  return <LobbyView />;
+}
 export default App;

@@ -1,3 +1,12 @@
+## Pokemon Drinking Game
+
+### npm run serve
+
+This will start a local server that uses Socket.io on port 8000.
+Note: Both npm run serve and npm start need to be ran in order to see the tic-tac-toe board
+
+Trying to follow the lobby example from https://github.com/boardgameio/boardgame.io/tree/master/examples/react-web/src
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
